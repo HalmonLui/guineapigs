@@ -22,7 +22,7 @@ class IndexPage extends React.Component {
           className="rellax circle"
           style={{ maxWidth: `50px`, marginBottom: `1.45rem` }}
         >
-          <Image />
+          <Image imgName="one_lettuce_pig.png" />
         </div>
         <h1>Hi people</h1>
         <p>Are you ready to learn about GuInEaPiGs!?!?!?</p>
@@ -32,7 +32,7 @@ class IndexPage extends React.Component {
           data-rellax-speed="7"
           style={{ maxWidth: `200px`, marginBottom: `1.45rem` }}
         >
-          <Image />
+          <Image imgName="two_multicolored_pigs.jpeg" />
         </div>
         <h1>Hi people</h1>
         <p>Are you ready to learn about GuInEaPiGs!?!?!?</p>
@@ -41,7 +41,7 @@ class IndexPage extends React.Component {
           className="rellax square"
           style={{ maxWidth: `100px`, marginBottom: `1.45rem` }}
         >
-          <Image />
+          <Image imgName="one_lettuce_pig.png" />
         </div>
         <h1>Hi people</h1>
         <p>Are you ready to learn about GuInEaPiGs!?!?!?</p>
@@ -50,7 +50,7 @@ class IndexPage extends React.Component {
           className="rellax circle"
           style={{ maxWidth: `30px`, marginBottom: `1.45rem` }}
         >
-          <Image />
+          <Image imgName="hd_glasses_pig.jpg" />
         </div>
         <h1 className="rellax square">Hi people</h1>
         <p>Are you ready to learn about GuInEaPiGs!?!?!?</p>
@@ -59,7 +59,7 @@ class IndexPage extends React.Component {
           className="rellax circle"
           style={{ maxWidth: `50px`, marginBottom: `1.45rem` }}
         >
-          <Image />
+          <Image imgName="one_lettuce_pig.png" />
         </div>
         <h1>Hi people</h1>
         <p>Are you ready to learn about GuInEaPiGs!?!?!?</p>
@@ -69,7 +69,7 @@ class IndexPage extends React.Component {
           data-rellax-speed="-3"
           style={{ maxWidth: `200px`, marginBottom: `1.45rem` }}
         >
-          <Image />
+          <Image imgName="one_lettuce_pig.png" />
         </div>
         <h1>Hi people</h1>
         <p>Are you ready to learn about GuInEaPiGs!?!?!?</p>
@@ -78,7 +78,7 @@ class IndexPage extends React.Component {
           className="rellax square"
           style={{ maxWidth: `100px`, marginBottom: `1.45rem` }}
         >
-          <Image />
+          <Image imgName="one_lettuce_pig.png" />
         </div>
         <h1>Hi people</h1>
         <p>Are you ready to learn about GuInEaPiGs!?!?!?</p>
@@ -87,7 +87,7 @@ class IndexPage extends React.Component {
           className="rellax circle"
           style={{ maxWidth: `30px`, marginBottom: `1.45rem` }}
         >
-          <Image />
+          <Image imgName="one_lettuce_pig.png" />
         </div>
         <Link to="/page-2/">Go to page 2</Link>
       </Layout>
