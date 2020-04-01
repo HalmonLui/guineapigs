@@ -15,80 +15,17 @@ class IndexPage extends React.Component {
     return (
       <Layout>
         <SEO title="Home" />
-        <h1 className="rellax square">Hi people</h1>
-        <p>Are you ready to learn about GuInEaPiGs!?!?!?</p>
-        <p>Ez clap noobs</p>
-        <div
-          className="rellax circle"
-          style={{ maxWidth: `50px`, marginBottom: `1.45rem` }}
-        >
-          <Image imgName="one_lettuce_pig.png" />
-        </div>
-        <h1>Hi people</h1>
-        <p>Are you ready to learn about GuInEaPiGs!?!?!?</p>
-        <p>Ez clap noobs</p>
-        <div
-          className="rellax"
-          data-rellax-speed="7"
-          style={{ maxWidth: `200px`, marginBottom: `1.45rem` }}
-        >
-          <Image imgName="two_multicolored_pigs.jpeg" />
-        </div>
-        <h1>Hi people</h1>
-        <p>Are you ready to learn about GuInEaPiGs!?!?!?</p>
-        <p>Ez clap noobs</p>
-        <div
-          className="rellax square"
-          style={{ maxWidth: `100px`, marginBottom: `1.45rem` }}
-        >
-          <Image imgName="one_lettuce_pig.png" />
-        </div>
-        <h1>Hi people</h1>
-        <p>Are you ready to learn about GuInEaPiGs!?!?!?</p>
-        <p>Ez clap noobs</p>
-        <div
-          className="rellax circle"
-          style={{ maxWidth: `30px`, marginBottom: `1.45rem` }}
-        >
-          <Image imgName="hd_glasses_pig.jpg" />
-        </div>
-        <h1 className="rellax square">Hi people</h1>
-        <p>Are you ready to learn about GuInEaPiGs!?!?!?</p>
-        <p>Ez clap noobs</p>
-        <div
-          className="rellax circle"
-          style={{ maxWidth: `50px`, marginBottom: `1.45rem` }}
-        >
-          <Image imgName="one_lettuce_pig.png" />
-        </div>
-        <h1>Hi people</h1>
-        <p>Are you ready to learn about GuInEaPiGs!?!?!?</p>
-        <p>Ez clap noobs</p>
-        <div
-          className="rellax"
-          data-rellax-speed="-3"
-          style={{ maxWidth: `200px`, marginBottom: `1.45rem` }}
-        >
-          <Image imgName="one_lettuce_pig.png" />
-        </div>
-        <h1>Hi people</h1>
-        <p>Are you ready to learn about GuInEaPiGs!?!?!?</p>
-        <p>Ez clap noobs</p>
-        <div
-          className="rellax square"
-          style={{ maxWidth: `100px`, marginBottom: `1.45rem` }}
-        >
-          <Image imgName="one_lettuce_pig.png" />
-        </div>
-        <h1>Hi people</h1>
-        <p>Are you ready to learn about GuInEaPiGs!?!?!?</p>
-        <p>Ez clap noobs</p>
-        <div
-          className="rellax circle"
-          style={{ maxWidth: `30px`, marginBottom: `1.45rem` }}
-        >
-          <Image imgName="one_lettuce_pig.png" />
-        </div>
+        <section className="section section-top">
+          <h1 className="rellax square">Hi people</h1>
+          <p>Are you ready to learn about GuInEaPiGs!?!?!?</p>
+          <p>Ez clap noobs</p>
+          <div
+            className="rellax circle"
+            style={{ maxWidth: `50px`, marginBottom: `1.45rem` }}
+          >
+            <Image imgName="one_lettuce_pig.png" />
+          </div>
+        </section>
         <Link to="/page-2/">Go to page 2</Link>
       </Layout>
     )
