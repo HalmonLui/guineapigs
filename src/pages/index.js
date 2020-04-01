@@ -18,25 +18,75 @@ class IndexPage extends React.Component {
         <h1 className="rellax square">Hi people</h1>
         <p>Are you ready to learn about GuInEaPiGs!?!?!?</p>
         <p>Ez clap noobs</p>
-        <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-          <Image />
-        </div>
-        <h1 className="rellax circle">Hi people</h1>
-        <p>Are you ready to learn about GuInEaPiGs!?!?!?</p>
-        <p>Ez clap noobs</p>
-        <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
+        <div
+          className="rellax circle"
+          style={{ maxWidth: `50px`, marginBottom: `1.45rem` }}
+        >
           <Image />
         </div>
         <h1>Hi people</h1>
         <p>Are you ready to learn about GuInEaPiGs!?!?!?</p>
         <p>Ez clap noobs</p>
-        <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
+        <div
+          className="rellax"
+          data-rellax-speed="7"
+          style={{ maxWidth: `200px`, marginBottom: `1.45rem` }}
+        >
           <Image />
         </div>
         <h1>Hi people</h1>
         <p>Are you ready to learn about GuInEaPiGs!?!?!?</p>
         <p>Ez clap noobs</p>
-        <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
+        <div
+          className="rellax square"
+          style={{ maxWidth: `100px`, marginBottom: `1.45rem` }}
+        >
+          <Image />
+        </div>
+        <h1>Hi people</h1>
+        <p>Are you ready to learn about GuInEaPiGs!?!?!?</p>
+        <p>Ez clap noobs</p>
+        <div
+          className="rellax circle"
+          style={{ maxWidth: `30px`, marginBottom: `1.45rem` }}
+        >
+          <Image />
+        </div>
+        <h1 className="rellax square">Hi people</h1>
+        <p>Are you ready to learn about GuInEaPiGs!?!?!?</p>
+        <p>Ez clap noobs</p>
+        <div
+          className="rellax circle"
+          style={{ maxWidth: `50px`, marginBottom: `1.45rem` }}
+        >
+          <Image />
+        </div>
+        <h1>Hi people</h1>
+        <p>Are you ready to learn about GuInEaPiGs!?!?!?</p>
+        <p>Ez clap noobs</p>
+        <div
+          className="rellax"
+          data-rellax-speed="-3"
+          style={{ maxWidth: `200px`, marginBottom: `1.45rem` }}
+        >
+          <Image />
+        </div>
+        <h1>Hi people</h1>
+        <p>Are you ready to learn about GuInEaPiGs!?!?!?</p>
+        <p>Ez clap noobs</p>
+        <div
+          className="rellax square"
+          style={{ maxWidth: `100px`, marginBottom: `1.45rem` }}
+        >
+          <Image />
+        </div>
+        <h1>Hi people</h1>
+        <p>Are you ready to learn about GuInEaPiGs!?!?!?</p>
+        <p>Ez clap noobs</p>
+        <div
+          className="rellax circle"
+          style={{ maxWidth: `30px`, marginBottom: `1.45rem` }}
+        >
           <Image />
         </div>
         <Link to="/page-2/">Go to page 2</Link>
