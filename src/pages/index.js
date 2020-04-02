@@ -29,8 +29,11 @@ class IndexPage extends React.Component {
               Explore around or take the <a href="">beginner quiz</a> :)
             </p>
           </div>
-          <div className="rellax grass" data-rellax-speed="-15">
-            <Image imgName="transparent_grass.png" />
+          <div className="rellax grass" data-rellax-speed="-25">
+            <Image imgName="transparent_grass2x.png" />
+          </div>
+          <div className="rellax dandelion" data-rellax-speed="-25">
+            <Image imgName="transparent_dandelions.png" />
           </div>
         </section>
         <section className="section section-index-one">

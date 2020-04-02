@@ -7,6 +7,7 @@ body {
   background-color: lightgray;
   margin: 0;
   padding: 0;
+  -webkit-overflow-scrolling: touch;
 }
 
 .navbar {
@@ -48,6 +49,8 @@ body {
 
 .navbar-content h2:hover {
   color: black;
+  cursor: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAZCAMAAAD63NUrAAAACVBMVEX///8AAAD///9+749PAAAAAXRSTlMAQObYZgAAAFZJREFUeNqdzksKwDAIAFHH+x+6lIYOVPOhs5OHJnES/5UkYKEkU7xjijSIm50iFh4fAXgYDd/yumVVRSwsqq/nRA3xVK0oo06d5U6DpQZ7PV7lMxH7LkaQAbYFwryzAAAAAElFTkSuQmCC),
+    auto;
 }
 
 .navbar-content h2 {
@@ -96,11 +99,22 @@ body {
 
 .grass {
   position: absolute;
-  top: 1vh;
   min-width: 100%;
   max-width: 100%;
+  top: 1vh;
+  opacity: 0.6;
+  z-index: 5;
+}
+
+.dandelion {
+  position: absolute;
+  bottom: 30vh;
+  right: -200px;
+  min-width: 50%;
+  max-width: 50%;
   height: 50px;
-  opacity: 0.7;
+  opacity: 0.4;
+  z-index: 3;
 }
 
 .section-index-one {
