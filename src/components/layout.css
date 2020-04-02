@@ -2,6 +2,7 @@ html {
   margin: 0;
   padding: 0;
   font-family: "Verdana", Geneva, sans-serif;
+  cursor: url("../images/small_carrot2.png"), auto;
 }
 body {
   background-color: lightgray;
@@ -27,6 +28,7 @@ body {
   display: flex;
   height: 100%;
   justify-content: space-around;
+  z-index: 101;
 }
 
 .navbar-content h1 {
@@ -50,8 +52,7 @@ body {
 
 .navbar-content h2:hover {
   color: black;
-  cursor: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAZCAMAAAD63NUrAAAACVBMVEX///8AAAD///9+749PAAAAAXRSTlMAQObYZgAAAFZJREFUeNqdzksKwDAIAFHH+x+6lIYOVPOhs5OHJnES/5UkYKEkU7xjijSIm50iFh4fAXgYDd/yumVVRSwsqq/nRA3xVK0oo06d5U6DpQZ7PV7lMxH7LkaQAbYFwryzAAAAAElFTkSuQmCC),
-    auto;
+  cursor: url("../images/small_carrot2.png"), auto;
 }
 
 .navbar-content h2 {
@@ -81,7 +82,7 @@ body {
   top: 150px;
   left: 50px;
   padding: auto;
-  z-index: 1;
+  z-index: 50;
 }
 
 .section-top .content:after {
