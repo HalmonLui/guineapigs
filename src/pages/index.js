@@ -34,9 +34,7 @@ class IndexPage extends React.Component {
             data-rellax-speed="7"
             style={{
               maxWidth: `100%`,
-              bottom: "0px",
-              top: "100vh",
-              marginBottom: `1.45rem`,
+              marginTop: "-50px",
               opacity: `0.6`,
             }}
           >
