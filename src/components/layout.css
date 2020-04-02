@@ -60,6 +60,7 @@ body {
   margin-top: -70px;
   background: url("../images/hd_glasses_pig.jpg") no-repeat center;
   background-size: cover;
+  background-position: center -200px;
 }
 
 .section-top h1 {
@@ -70,12 +71,12 @@ body {
 .section-top .content {
   position: absolute;
   background-color: white;
+  text-align: center;
   border-radius: 50px;
-  width: 30%;
-  top: 90px;
+  width: 33%;
+  top: 150px;
   left: 50px;
-  padding-left: 30px;
-  padding-right: 0px;
+  padding: auto;
   z-index: 1;
 }
 
@@ -91,6 +92,13 @@ body {
   border-right: 0;
   margin-top: -20px;
   margin-right: -20px;
+}
+
+.section-index-one {
+  height: 100vh;
+}
+.section-index-one .content {
+  display: flex;
 }
 
 @media only screen and (max-width: 480px) {

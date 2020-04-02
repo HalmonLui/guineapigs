@@ -15,18 +15,58 @@ class IndexPage extends React.Component {
     return (
       <Layout>
         <SEO title="Home" />
-        <section className="section section-top">
-          <div className="content rellax" data-rellax-speed="-4">
-            <h1>Hi people</h1>
-            <p>Are you ready to learn about GuInEaPiGs!?!?!?</p>
-            <p>Ez clap noobs</p>
-            <div style={{ maxWidth: `50px`, marginBottom: `1.45rem` }}>
-              <Image imgName="one_lettuce_pig.png" />
-            </div>
+        <section className="section section-top rellax">
+          <div className="content rellax" data-rellax-speed="-2">
+            <h1>Hi human!</h1>
+            <p>Ready to learn more about us?</p>
+            <p>
+              Explore around or take the <a href="">beginner quiz</a> :)
+            </p>
+          </div>
+          <div
+            className="rellax"
+            data-rellax-speed="7"
+            style={{
+              maxWidth: `100%`,
+              bottom: "0px",
+              top: "100vh",
+              marginBottom: `1.45rem`,
+              opacity: `0.6`,
+            }}
+          >
+            <Image imgName="transparent_grass.png" />
           </div>
         </section>
-        <section className="section">
+        <section className="section section-index-one">
           <div className="content">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. In
+              nisl nisi scelerisque eu ultrices vitae. At lectus urna duis
+              convallis convallis tellus id. Blandit turpis cursus in hac
+              habitasse. Proin fermentum leo vel orci. Ut porttitor leo a diam
+              sollicitudin tempor. Sed odio morbi quis commodo. Turpis in eu mi
+              bibendum neque egestas. Eu scelerisque felis imperdiet proin.
+              Aliquam malesuada bibendum arcu vitae elementum curabitur vitae
+              nunc sed. Augue mauris augue neque gravida. Ac tincidunt vitae
+              semper quis lectus nulla at volutpat diam. In eu mi bibendum neque
+              egestas congue quisque. Augue eget arcu dictum varius duis. Turpis
+              egestas sed tempus urna et.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. In
+              nisl nisi scelerisque eu ultrices vitae. At lectus urna duis
+              convallis convallis tellus id. Blandit turpis cursus in hac
+              habitasse. Proin fermentum leo vel orci. Ut porttitor leo a diam
+              sollicitudin tempor. Sed odio morbi quis commodo. Turpis in eu mi
+              bibendum neque egestas. Eu scelerisque felis imperdiet proin.
+              Aliquam malesuada bibendum arcu vitae elementum curabitur vitae
+              nunc sed. Augue mauris augue neque gravida. Ac tincidunt vitae
+              semper quis lectus nulla at volutpat diam. In eu mi bibendum neque
+              egestas congue quisque. Augue eget arcu dictum varius duis. Turpis
+              egestas sed tempus urna et.
+            </p>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. In

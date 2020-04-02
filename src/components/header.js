@@ -27,7 +27,7 @@ const Header = ({ siteTitle }) => (
           padding: "0",
         }}
       >
-        <h2>Home</h2>
+        <h2>Food</h2>
       </Link>
       <Link
         to="/"
@@ -39,7 +39,7 @@ const Header = ({ siteTitle }) => (
           padding: "0",
         }}
       >
-        <h2>News</h2>
+        <h2>Care</h2>
       </Link>
       <Link
         to="/"
@@ -51,7 +51,19 @@ const Header = ({ siteTitle }) => (
           padding: "0",
         }}
       >
-        <h2>Contact</h2>
+        <h2>Sick</h2>
+      </Link>
+      <Link
+        to="/"
+        style={{
+          textDecoration: "none",
+          width: "100%",
+          height: "100%",
+          margin: "0",
+          padding: "0",
+        }}
+      >
+        <h2>Shop</h2>
       </Link>
     </div>
   </header>
