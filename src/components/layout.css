@@ -4,14 +4,62 @@ html {
   font-family: "Verdana", Geneva, sans-serif;
 }
 body {
+  background-color: lightgray;
   margin: 0;
   padding: 0;
 }
+
+.navbar {
+  background-color: transparent; /* Black background color */
+  position: fixed; /* Make it stick/fixed */
+  top: 0; /* Stay on top */
+  height: 75px;
+  width: 100%; /* Full width */
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+  padding: 0;
+  margin: 0;
+  z-index: 100;
+}
+
+.navbar-content {
+  display: flex;
+  height: 100%;
+  justify-content: space-around;
+}
+
+.navbar-content h1 {
+  display: block;
+  color: orange;
+  height: 100%;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Style the navbar links */
+.navbar-content h2 {
+  float: left;
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+.navbar-content h2:hover {
+  color: black;
+}
+
+.navbar-content h2 {
+  text-decoration: none;
+}
+
 /* Section Top */
 .section-top {
-  max-height: 100vh;
   min-height: 100vh;
-  background: url("../images/hd_glasses_pig.jpg") no-repeat center center/cover;
+  margin-top: -70px;
+  background: url("../images/hd_glasses_pig.jpg") no-repeat center;
+  background-size: cover;
 }
 
 .section-top h1 {
@@ -21,9 +69,28 @@ body {
 
 .section-top .content {
   position: absolute;
-  top: 100px;
-  right: 20px;
-  width: 55%;
+  background-color: white;
+  border-radius: 50px;
+  width: 30%;
+  top: 90px;
+  left: 50px;
+  padding-left: 30px;
+  padding-right: 0px;
+  z-index: 1;
+}
+
+.section-top .content:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 70%;
+  width: 0;
+  height: 0;
+  border: 20px solid transparent;
+  border-left-color: white;
+  border-right: 0;
+  margin-top: -20px;
+  margin-right: -20px;
 }
 
 @media only screen and (max-width: 480px) {
