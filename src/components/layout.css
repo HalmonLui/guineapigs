@@ -94,6 +94,15 @@ body {
   margin-right: -20px;
 }
 
+.grass {
+  position: absolute;
+  top: 1vh;
+  min-width: 100%;
+  max-width: 100%;
+  height: 50px;
+  opacity: 0.7;
+}
+
 .section-index-one {
   height: 100vh;
 }

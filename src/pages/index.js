@@ -29,15 +29,7 @@ class IndexPage extends React.Component {
               Explore around or take the <a href="">beginner quiz</a> :)
             </p>
           </div>
-          <div
-            className="rellax"
-            data-rellax-speed="7"
-            style={{
-              maxWidth: `100%`,
-              marginTop: "-50px",
-              opacity: `0.6`,
-            }}
-          >
+          <div className="rellax grass" data-rellax-speed="-15">
             <Image imgName="transparent_grass.png" />
           </div>
         </section>
