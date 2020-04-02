@@ -2,11 +2,14 @@ html {
   margin: 0;
   padding: 0;
   font-family: "Verdana", Geneva, sans-serif;
+  cursor: url("../images/small_carrot2.png"), auto;
 }
 body {
   background-color: lightgray;
   margin: 0;
   padding: 0;
+  -webkit-overflow-scrolling: touch;
+  overflow-x: hidden;
 }
 
 .navbar {
@@ -25,6 +28,7 @@ body {
   display: flex;
   height: 100%;
   justify-content: space-around;
+  z-index: 101;
 }
 
 .navbar-content h1 {
@@ -77,7 +81,7 @@ body {
   top: 150px;
   left: 50px;
   padding: auto;
-  z-index: 1;
+  z-index: 50;
 }
 
 .section-top .content:after {
@@ -92,6 +96,26 @@ body {
   border-right: 0;
   margin-top: -20px;
   margin-right: -20px;
+}
+
+.grass {
+  position: absolute;
+  min-width: 100%;
+  max-width: 100%;
+  top: 1vh;
+  opacity: 0.6;
+  z-index: 5;
+}
+
+.dandelion {
+  position: absolute;
+  bottom: 30vh;
+  right: -200px;
+  min-width: 50%;
+  max-width: 50%;
+  height: 50px;
+  opacity: 0.4;
+  z-index: 3;
 }
 
 .section-index-one {
