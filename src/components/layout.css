@@ -52,7 +52,6 @@ body {
 
 .navbar-content h2:hover {
   color: black;
-  cursor: url("../images/small_carrot2.png"), auto;
 }
 
 .navbar-content h2 {
