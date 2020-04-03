@@ -143,11 +143,11 @@ body {
 
 /* Index Page - Section I */
 .section-index-one {
+  margin-top: 50vh;
   height: 100vh;
 }
 .section-index-one .content {
   display: flex;
-  margin-top: 10vh;
 }
 
 .section-index-one .content p {

@@ -64,7 +64,7 @@ class IndexPage extends React.Component {
             </p>
           </div>
           <div className="content">
-            <p className="rellax">
+            <p className="">
               They are not related to pigs at all. Even though male guinea pigs
               are called boars and females are called sows, they are rodents.
               Their scientific name is ‘Cavia porcellus’, which is why they are
@@ -72,7 +72,7 @@ class IndexPage extends React.Component {
               for ‘little pig’. This name may have come about because of the
               pig-like squeaking noises they make.
             </p>
-            <p className="rellax">
+            <p className="">
               They don’t come from Guinea. In fact, guinea pigs originate from
               the Andes region of South America. The ‘guinea’ in their name is a
               bit of a mystery. One theory is that they were first brought to
