@@ -125,14 +125,14 @@ body {
   position: absolute;
   min-width: 100%;
   max-width: 100%;
-  top: 1vh;
+  bottom: -15vh;
   opacity: 0.6;
   z-index: 5;
 }
 
 .dandelion {
   position: absolute;
-  bottom: 30vh;
+  bottom: 35vh;
   right: -200px;
   min-width: 50%;
   max-width: 50%;

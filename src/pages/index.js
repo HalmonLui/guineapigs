@@ -28,7 +28,7 @@ class IndexPage extends React.Component {
             <button>Tell me more</button>
           </div>
           <div className="rellax grass" data-rellax-speed="-25">
-            <Image imgName="transparent_grass2x.png" />
+            <Image imgName="transparent_grass_hd.png" />
           </div>
           <div className="rellax dandelion" data-rellax-speed="-25">
             <Image imgName="transparent_dandelions.png" />

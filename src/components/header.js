@@ -51,7 +51,7 @@ const Header = ({ siteTitle }) => (
           padding: "0",
         }}
       >
-        <h2>Sick</h2>
+        <h2>Illness</h2>
       </Link>
       <Link
         to="/"
