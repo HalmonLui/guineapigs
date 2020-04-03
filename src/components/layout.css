@@ -5,7 +5,13 @@ html {
   cursor: url("../images/small_carrot2.png"), auto;
 }
 body {
-  background-color: lightgray;
+  background: rgb(226, 216, 207);
+  background: linear-gradient(
+    90deg,
+    rgba(226, 216, 207, 1) 0%,
+    rgba(214, 205, 198, 1) 46%,
+    rgba(218, 209, 202, 1) 100%
+  );
   margin: 0;
   padding: 0;
   -webkit-overflow-scrolling: touch;
