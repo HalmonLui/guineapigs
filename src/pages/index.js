@@ -24,10 +24,8 @@ class IndexPage extends React.Component {
             data-sal-easing="ease"
           >
             <h1>Hi human!</h1>
-            <p>Ready to learn more about us?</p>
-            <p>
-              Explore around or take the <a href="">beginner quiz</a> :)
-            </p>
+            <p>I'm here to teach you all about us!</p>
+            <button>Tell me more</button>
           </div>
           <div className="rellax grass" data-rellax-speed="-25">
             <Image imgName="transparent_grass2x.png" />
