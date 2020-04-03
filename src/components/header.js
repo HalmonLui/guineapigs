@@ -18,7 +18,7 @@ const Header = ({ siteTitle }) => (
         <h1>{siteTitle}</h1>
       </Link>
       <Link
-        to="/"
+        to="/page-2/"
         style={{
           textDecoration: "none",
           width: "100%",

@@ -147,6 +147,16 @@ body {
 }
 .section-index-one .content {
   display: flex;
+  margin-top: 10vh;
+}
+
+.section-index-one .content p {
+  padding: 30px;
+  margin: 30px;
+  width: 100%;
+  text-align: center;
+  border-radius: 25px;
+  background-color: rgb(255, 255, 255, 0.7);
 }
 
 @media only screen and (max-width: 480px) {

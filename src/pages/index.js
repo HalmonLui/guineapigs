@@ -36,62 +36,49 @@ class IndexPage extends React.Component {
         </section>
         <section className="section section-index-one">
           <div className="content">
-            <p
-              data-sal="slide-up"
-              data-sal-duration="1000"
-              data-sal-delay="300"
-              data-sal-easing="ease"
-            >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. In
-              nisl nisi scelerisque eu ultrices vitae. At lectus urna duis
-              convallis convallis tellus id. Blandit turpis cursus in hac
-              habitasse. Proin fermentum leo vel orci. Ut porttitor leo a diam
-              sollicitudin tempor. Sed odio morbi quis commodo. Turpis in eu mi
-              bibendum neque egestas. Eu scelerisque felis imperdiet proin.
-              Aliquam malesuada bibendum arcu vitae elementum curabitur vitae
-              nunc sed. Augue mauris augue neque gravida. Ac tincidunt vitae
-              semper quis lectus nulla at volutpat diam. In eu mi bibendum neque
-              egestas congue quisque. Augue eget arcu dictum varius duis. Turpis
-              egestas sed tempus urna et.
+            <p className="rellax" data-rellax-speed="10">
+              They are not related to pigs at all. Even though male guinea pigs
+              are called boars and females are called sows, they are rodents.
+              Their scientific name is ‘Cavia porcellus’, which is why they are
+              sometimes referred to as ‘cavies’. The word ‘porcellus’ is latin
+              for ‘little pig’. This name may have come about because of the
+              pig-like squeaking noises they make.
             </p>
-            <p
-              data-sal="slide-down"
-              data-sal-duration="1000"
-              data-sal-delay="300"
-              data-sal-easing="ease"
-            >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. In
-              nisl nisi scelerisque eu ultrices vitae. At lectus urna duis
-              convallis convallis tellus id. Blandit turpis cursus in hac
-              habitasse. Proin fermentum leo vel orci. Ut porttitor leo a diam
-              sollicitudin tempor. Sed odio morbi quis commodo. Turpis in eu mi
-              bibendum neque egestas. Eu scelerisque felis imperdiet proin.
-              Aliquam malesuada bibendum arcu vitae elementum curabitur vitae
-              nunc sed. Augue mauris augue neque gravida. Ac tincidunt vitae
-              semper quis lectus nulla at volutpat diam. In eu mi bibendum neque
-              egestas congue quisque. Augue eget arcu dictum varius duis. Turpis
-              egestas sed tempus urna et.
+            <p className="rellax" data-rellax-speed="7">
+              They don’t come from Guinea. In fact, guinea pigs originate from
+              the Andes region of South America. The ‘guinea’ in their name is a
+              bit of a mystery. One theory is that they were first brought to
+              Europe by Spanish explorers in the 1500s via Guinea in Africa, so
+              people thought they came from there, or that it could be a
+              corruption of ‘Guiana’, an area in South America.
             </p>
-            <p
-              data-sal="slide-up"
-              data-sal-duration="1000"
-              data-sal-delay="300"
-              data-sal-easing="ease"
-            >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. In
-              nisl nisi scelerisque eu ultrices vitae. At lectus urna duis
-              convallis convallis tellus id. Blandit turpis cursus in hac
-              habitasse. Proin fermentum leo vel orci. Ut porttitor leo a diam
-              sollicitudin tempor. Sed odio morbi quis commodo. Turpis in eu mi
-              bibendum neque egestas. Eu scelerisque felis imperdiet proin.
-              Aliquam malesuada bibendum arcu vitae elementum curabitur vitae
-              nunc sed. Augue mauris augue neque gravida. Ac tincidunt vitae
-              semper quis lectus nulla at volutpat diam. In eu mi bibendum neque
-              egestas congue quisque. Augue eget arcu dictum varius duis. Turpis
-              egestas sed tempus urna et.
+            <p className="rellax" data-rellax-speed="2">
+              They like to chat to each other. While they enjoy human affection,
+              guinea pigs need to be with others of their own kind and should
+              always be kept in pairs or small groups. They communicate using
+              several noises, including the well-known ‘wheek-wheek’ call – a
+              sign of excitement or to find a friend – and a low ‘purring’
+              sound, which they make when they are feeling content and chilled
+              out. They also emit a series of short ‘putt-putt’ noises when they
+              are exploring.
+            </p>
+          </div>
+          <div className="content">
+            <p className="rellax">
+              They are not related to pigs at all. Even though male guinea pigs
+              are called boars and females are called sows, they are rodents.
+              Their scientific name is ‘Cavia porcellus’, which is why they are
+              sometimes referred to as ‘cavies’. The word ‘porcellus’ is latin
+              for ‘little pig’. This name may have come about because of the
+              pig-like squeaking noises they make.
+            </p>
+            <p className="rellax">
+              They don’t come from Guinea. In fact, guinea pigs originate from
+              the Andes region of South America. The ‘guinea’ in their name is a
+              bit of a mystery. One theory is that they were first brought to
+              Europe by Spanish explorers in the 1500s via Guinea in Africa, so
+              people thought they came from there, or that it could be a
+              corruption of ‘Guiana’, an area in South America.
             </p>
           </div>
         </section>
