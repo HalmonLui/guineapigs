@@ -18,7 +18,7 @@ const Header = ({ siteTitle }) => (
         <h1>{siteTitle}</h1>
       </Link>
       <Link
-        to="/"
+        to="/page-2/"
         style={{
           textDecoration: "none",
           width: "100%",
@@ -51,7 +51,7 @@ const Header = ({ siteTitle }) => (
           padding: "0",
         }}
       >
-        <h2>Sick</h2>
+        <h2>Illness</h2>
       </Link>
       <Link
         to="/"
