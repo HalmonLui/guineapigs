@@ -147,6 +147,40 @@ body {
   z-index: 3;
 }
 
+.dandelion-seed {
+  position: absolute;
+  min-width: 2%;
+  max-width: 7%;
+  opacity: 0.7;
+  z-index: 3;
+}
+
+.seed-1 {
+  min-width: 7%;
+  bottom: -50vh;
+  right: 5%;
+}
+
+.seed-2 {
+  min-width: 6%;
+  bottom: -60vh;
+  right: 20%;
+}
+
+.seed-3 {
+  min-width: 5%;
+  bottom: -80vh;
+  right: 12%;
+  opacity: 0.5;
+}
+
+.seed-4 {
+  min-width: 4%;
+  bottom: -100vh;
+  right: 20%;
+  opacity: 0.9;
+}
+
 /* Index Page - Section I */
 .section-index-one {
   margin-top: 50vh;

@@ -35,6 +35,18 @@ class IndexPage extends React.Component {
           </div>
         </section>
         <section className="section section-index-one">
+          <div className="rellax dandelion-seed seed-1" data-rellax-speed="5">
+            <Image imgName="dandelion_seed.png" />
+          </div>
+          <div className="rellax dandelion-seed seed-2" data-rellax-speed="3">
+            <Image imgName="dandelion_seed.png" />
+          </div>
+          <div className="rellax dandelion-seed seed-3" data-rellax-speed="1">
+            <Image imgName="dandelion_seed.png" />
+          </div>
+          <div className="rellax dandelion-seed seed-4" data-rellax-speed="2">
+            <Image imgName="dandelion_seed.png" />
+          </div>
           <div className="content">
             <p className="rellax" data-rellax-speed="10">
               They are not related to pigs at all. Even though male guinea pigs
