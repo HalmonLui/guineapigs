@@ -5,6 +5,10 @@ html {
   cursor: url("../images/small_carrot2.png"), auto;
 }
 body {
+  margin: 0;
+  padding: 0;
+  -webkit-overflow-scrolling: touch;
+  overflow-x: hidden;
   background: rgb(226, 216, 207);
   background: linear-gradient(
     90deg,
@@ -12,10 +16,6 @@ body {
     rgba(214, 205, 198, 1) 46%,
     rgba(218, 209, 202, 1) 100%
   );
-  margin: 0;
-  padding: 0;
-  -webkit-overflow-scrolling: touch;
-  overflow-x: hidden;
 }
 
 .navbar {
@@ -199,6 +199,50 @@ body {
   background-color: rgb(255, 255, 255, 0.7);
 }
 
+/*************************/
+/******* FOOD PAGE *******/
+/*************************/
+
+/* Food Page - Section I */
+.food-section-1 {
+  min-height: 100vh;
+  margin-top: -20px;
+  padding-top: 80px;
+  /*background: url("../images/vegetables.jpg") no-repeat center;
+  background-size: cover;
+  background-position: center;*/
+  background-color: lightgray;
+}
+
+.food-staples {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.food-staple-container {
+  margin: 20px;
+  padding: 30px;
+  border-radius: 2px;
+  background-color: #fff;
+  width: 50%;
+  height: 40vh;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.food-staple-container .food-hay {
+  width: 45%;
+}
+
+.food-staple-container .food-pellets {
+  width: 50%;
+}
+
+.food-staple-container .food-water {
+  width: 50%;
+}
+
+/* Mobile Compatibility */
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;

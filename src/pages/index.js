@@ -94,7 +94,7 @@ class IndexPage extends React.Component {
             </p>
           </div>
         </section>
-        <Link to="/page-2/">Go to page 2</Link>
+        <Link to="/foodPage/">Go to page 2</Link>
       </Layout>
     )
   }
