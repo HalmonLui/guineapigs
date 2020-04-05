@@ -215,7 +215,7 @@ body {
 }
 
 .food-section-1 h1 {
-  margin: 20px;
+  margin: 40px;
   color: white;
 }
 
@@ -248,11 +248,17 @@ body {
   z-index: 30;
 }
 
-.food-staple-container p {
+.food-staple-container p,
+.food-staple-container h3,
+.food-staple-container ul li,
+.food-staple-container ul li p {
   color: transparent;
 }
 
-.food-staple-container:hover p {
+.food-staple-container:hover p,
+.food-staple-container:hover h3,
+.food-staple-container:hover ul li,
+.food-staple-container:hover ul li p {
   color: black;
 }
 
@@ -269,6 +275,44 @@ body {
 .water-container {
   background: url("../images/glassbottle.jpg") no-repeat center;
   background-color: white;
+}
+
+.fruit-container {
+  background: url("../images/assorted_fruit.jpg") no-repeat center;
+  background-size: cover;
+  background-color: white;
+  color: white;
+  height: 60vh;
+}
+
+.vegetables-container {
+  background: url("../images/assorted_vegetables.jpg") no-repeat center;
+  background-size: cover;
+  background-color: white;
+  color: white;
+  height: 60vh;
+}
+
+.bad-food-container {
+  background: url("../images/cutting_onion.jpg") no-repeat center;
+  background-size: cover;
+  background-color: white;
+  color: white;
+  height: 60vh;
+  margin-bottom: 10vh;
+}
+
+.vegetables-container:hover,
+.fruit-container:hover {
+  border: 1px solid green;
+}
+
+.bad-food-container:hover {
+  border: 1px solid red;
+}
+
+#bad-food-title {
+  color: red;
 }
 
 /* Mobile Compatibility */
