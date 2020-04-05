@@ -207,11 +207,16 @@ body {
 .food-section-1 {
   min-height: 100vh;
   margin-top: -20px;
-  padding-top: 80px;
-  /*background: url("../images/vegetables.jpg") no-repeat center;
+  padding-top: 10vh;
+  background: url("../images/vegetables_table.jpg") no-repeat center;
   background-size: cover;
-  background-position: center;*/
+  background-position: center;
   background-color: lightgray;
+}
+
+.food-section-1 h1 {
+  margin: 20px;
+  color: white;
 }
 
 .food-staples {
@@ -221,25 +226,40 @@ body {
 }
 
 .food-staple-container {
+  flex: 1;
   margin: 20px;
   padding: 30px;
-  border-radius: 2px;
-  background-color: #fff;
+  border-radius: 1000px;
+  border-top-left-radius: 2px;
+  border-bottom-right-radius: 500px;
+  background: #fff;
   width: 50%;
   height: 40vh;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
-.food-staple-container .food-hay {
-  width: 45%;
+.food-staple-container:hover {
+  border-radius: 2px;
+  background: white;
+  transition: border-radius 0.2s;
+  transition: flex 0.5s;
+  flex: 5;
+  z-index: 30;
 }
 
-.food-staple-container .food-pellets {
-  width: 50%;
+.hay-container {
+  background: url("../images/hayfeeder.jpg") no-repeat center;
+  background-color: white;
 }
 
-.food-staple-container .food-water {
-  width: 50%;
+.pellets-container {
+  background: url("../images/foodpellets.jpg") no-repeat center;
+  background-color: white;
+}
+
+.water-container {
+  background: url("../images/glassbottle.jpg") no-repeat center;
+  background-color: white;
 }
 
 /* Mobile Compatibility */
