@@ -241,10 +241,19 @@ body {
 .food-staple-container:hover {
   border-radius: 2px;
   background: white;
+  color: black;
   transition: border-radius 0.2s;
   transition: flex 0.5s;
   flex: 5;
   z-index: 30;
+}
+
+.food-staple-container p {
+  color: transparent;
+}
+
+.food-staple-container:hover p {
+  color: black;
 }
 
 .hay-container {
