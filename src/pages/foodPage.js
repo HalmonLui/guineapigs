@@ -81,13 +81,7 @@ const FoodPage = () => (
       </div>
       <h1>Good Fruits & Vegetables</h1>
       <div className="food-staples">
-        <div
-          className="food-staple-container fruit-container"
-          data-sal="zoom-in"
-          data-sal-duration="500"
-          data-sal-delay="300"
-          data-sal-easing="ease"
-        >
+        <div className="food-staple-container fruit-container rellax">
           <h2>Fruits</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -103,13 +97,7 @@ const FoodPage = () => (
             eget arcu dictum varius duis. Turpis egestas sed tempus urna et.
           </p>
         </div>
-        <div
-          className="food-staple-container vegetables-container"
-          data-sal="zoom-in"
-          data-sal-duration="500"
-          data-sal-delay="300"
-          data-sal-easing="ease"
-        >
+        <div className="food-staple-container vegetables-container rellax">
           <h2>Vegetables</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -128,13 +116,7 @@ const FoodPage = () => (
       </div>
       <h1 id="bad-food-title">Bad Fruits & Vegetables</h1>
       <div className="food-staples">
-        <div
-          className="food-staple-container bad-food-container"
-          data-sal="zoom-in"
-          data-sal-duration="500"
-          data-sal-delay="300"
-          data-sal-easing="ease"
-        >
+        <div className="food-staple-container bad-food-container rellax">
           <h2>Poison</h2>
           <h3>Vegetables</h3>
           <ul>
