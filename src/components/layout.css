@@ -242,8 +242,8 @@ body {
   border-radius: 2px;
   background: white;
   color: black;
-  transition: border-radius 0.2s;
-  transition: flex 0.5s;
+  transition: flex 0.5s, border-radius 0.2s, background 2s;
+  transition-delay: 0.2s;
   flex: 5;
   z-index: 30;
 }
@@ -253,6 +253,7 @@ body {
 .food-staple-container ul li,
 .food-staple-container ul li p {
   color: transparent;
+  transition-delay: 0s;
 }
 
 .food-staple-container:hover p,
@@ -260,6 +261,8 @@ body {
 .food-staple-container:hover ul li,
 .food-staple-container:hover ul li p {
   color: black;
+  transition: color 0.2s;
+  transition-delay: 0.2s;
 }
 
 .hay-container {
@@ -283,6 +286,7 @@ body {
   background-color: white;
   color: white;
   height: 60vh;
+  transition: flex 0.5s;
 }
 
 .vegetables-container {
@@ -291,6 +295,7 @@ body {
   background-color: white;
   color: white;
   height: 60vh;
+  transition: flex 0.5s;
 }
 
 .bad-food-container {
