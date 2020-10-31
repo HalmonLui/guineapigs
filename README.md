@@ -4,7 +4,6 @@ A project started to learn the Gatsby.js framework as well as display a unique f
 
 ### Built With
 Gatsby.js
-Love of my guinea pigs
 
 ### Installation
 ```sh
