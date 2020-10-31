@@ -21,8 +21,8 @@ npm start
 
 <!-- USAGE EXAMPLES -->
 ## Demo
-Home page [Home page demo][homepage]
-Food page [Food page demo][foodpage]
+Home page ![Home page demo][homepage]
+Food page ![Food page demo][foodpage]
 
 
 <!-- LICENSE -->
